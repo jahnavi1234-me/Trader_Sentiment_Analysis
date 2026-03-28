@@ -30,6 +30,7 @@ Pandas
 Matplotlib
 Seaborn
 Jupyter Notebook / VS Code
+```
  Project Workflow
 Data Collection
       ↓
@@ -44,7 +45,9 @@ Exploratory Data Analysis (EDA)
 Performance Analysis (PnL, Win Rate)
       ↓
 Visualization & Insights
+```
  Folder Structure
+ ```
 Trader_Sentiment_Analysis/
 │
 ├── data/
@@ -70,6 +73,7 @@ Trader_Sentiment_Analysis/
 │
 ├── requirements.txt
 └── README.md
+```
  Installation & Setup
 1. Clone Repository
 git clone <your-repo-link>
@@ -83,15 +87,15 @@ pip install -r requirements.txt
 jupyter notebook
 
 Open analysis.ipynb and run all cells.
-
+```
  Key Results
-🔹 PnL Summary by Sentiment
+ PnL Summary by Sentiment
 Highest average profit observed during Extreme Greed
 Lower profitability during Fear and Extreme Fear
-🔹 Win Rate Analysis
+ Win Rate Analysis
 Highest win rate during Extreme Greed (~46%)
 Lowest win rate during Extreme Fear (~37%)
-🔹 Trader Distribution
+ Trader Distribution
 A small number of traders generate the majority of profits
 Indicates a skewed (power-law) distribution of returns
  Key Insights
@@ -99,6 +103,10 @@ Market sentiment strongly influences trader performance
 Traders perform better in bullish (Greed) conditions
 Fear-driven markets lead to lower success rates
 Profit distribution is highly uneven — few traders dominate gains
+```
+<img width="1000" height="500" alt="avg_pnl" src="https://github.com/user-attachments/assets/98411b34-03c8-4ab1-80d7-57c5de6b7e6e" />
+<img width="800" height="500" alt="pnl_boxplot" src="https://github.com/user-attachments/assets/8cf7d568-58da-47e1-b6cc-4b8636720135" />
+
  Conclusion
 
 This analysis demonstrates that incorporating market sentiment into trading strategies can significantly improve decision-making.
